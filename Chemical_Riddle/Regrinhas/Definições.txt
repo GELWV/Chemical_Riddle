@@ -1,0 +1,8 @@
+Nome: Chemical Riddle.
+
+Objetivo: Completar a tabela.
+
+Informações que o jogador recebe: Nome do elemento Químico e a quantidade de Prótons.
+
+
+

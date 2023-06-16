@@ -1,0 +1,75 @@
+div.tabela {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  margin: 4rem;
+  background-color: bisque;
+  box-shadow: 4px 4px 10px black;
+  padding: 20px;
+}
+
+.tabela>div:is(.roxo, .ciano, .vermelho, .laranja, .amarelo, .cinza, .rosa, .verde, .azul, .verdinho, .rosinha):hover {
+  transform: scale(120%);
+}
+
+.roxo,
+.ciano,
+.vermelho,
+.laranja,
+.amarelo,
+.cinza,
+.rosa,
+.verde,
+.azul,
+.verdinho,
+.rosinha {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 2rem;
+  padding: 5px;
+  cursor: pointer;
+}
+
+div.roxo {
+  background-color: rgb(164, 88, 235);
+}
+
+div.ciano {
+  background-color: aqua;
+}
+
+div.vermelho {
+  background-color: rgb(255, 139, 86);
+}
+
+div.laranja {
+  background-color: hsl(39, 100%, 61%);
+}
+
+div.amarelo {
+  background-color: hsl(61, 100%, 63%);
+}
+
+div.cinza {
+  background-color: hsl(0, 0%, 76%);
+}
+
+div.rosa {
+  background-color: hsl(342, 82%, 58%);
+}
+
+div.verde {
+  background-color: hsl(130, 82%, 58%);
+}
+
+div.azul {
+  background-color: hsl(236, 90%, 70%);
+}
+
+div.verdinho {
+  background-color: hsl(110, 100%, 78%);
+}
+
+div.rosinha {
+  background-color: pink;
+}

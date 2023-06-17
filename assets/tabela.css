@@ -3,26 +3,14 @@ div.tabela {
   grid-template-columns: repeat(18, 1fr);
   grid-template-rows: repeat(9, 1fr);
   margin: 4rem;
-  background-color: bisque;
-  box-shadow: 4px 4px 10px black;
   padding: 20px;
 }
 
-.tabela>div:is(.roxo, .ciano, .vermelho, .laranja, .amarelo, .cinza, .rosa, .verde, .azul, .verdinho, .rosinha):hover {
+.tabela>div:hover {
   transform: scale(120%);
 }
 
-.roxo,
-.ciano,
-.vermelho,
-.laranja,
-.amarelo,
-.cinza,
-.rosa,
-.verde,
-.azul,
-.verdinho,
-.rosinha {
+div.tabela>div:not(.vazia){
   border: 1px solid black;
   text-align: center;
   font-size: 2rem;
@@ -30,46 +18,168 @@ div.tabela {
   cursor: pointer;
 }
 
-div.roxo {
+/*--!organizacao!--*/
+
+div#p2{
+  grid-column-start: 18;
+}
+div#p5{
+  grid-column-start: 13;
+}
+div#p13{
+  grid-column-start: 13;
+}
+
+  /*-lantanidios-*/
+
+div#p57{
+  grid-column-start: 3;
+  grid-row-start: 9;
+}
+div#p58{
+  grid-column-start: 4;
+  grid-row-start: 9;
+}
+div#p59{
+  grid-column-start: 5;
+  grid-row-start: 9;
+}
+div#p60{
+  grid-column-start: 6;
+  grid-row-start: 9;
+}
+div#p61{
+  grid-column-start: 7;
+  grid-row-start: 9;
+}
+div#p62{
+  grid-column-start: 8;
+  grid-row-start: 9;
+}
+div#p63{
+  grid-column-start: 9;
+  grid-row-start: 9;
+}
+div#p64{
+  grid-column-start: 10;
+  grid-row-start: 9;
+}
+div#p65{
+  grid-column-start: 11;
+  grid-row-start: 9;
+}
+div#p66{
+  grid-column-start: 12;
+  grid-row-start: 9;
+}
+div#p67{
+  grid-column-start: 13;
+  grid-row-start: 9;
+}
+div#p68{
+  grid-column-start: 14;
+  grid-row-start: 9;
+}
+div#p69{
+  grid-column-start: 15;
+  grid-row-start: 9;
+}
+div#p70{
+  grid-column-start: 16;
+  grid-row-start: 9;
+}
+
+  /*-actinidios-*/
+
+div#p89{
+  grid-column-start: 3;
+  grid-row-start: 10;
+}
+div#p90{
+  grid-column-start: 4;
+  grid-row-start: 10;
+}
+div#p91{
+  grid-column-start: 5;
+  grid-row-start: 10;
+}
+div#p92{
+  grid-column-start: 6;
+  grid-row-start: 10;
+}
+div#p93{
+  grid-column-start: 7;
+  grid-row-start: 10;
+}
+div#p94{
+  grid-column-start: 8;
+  grid-row-start: 10;
+}
+div#p95{
+  grid-column-start: 9;
+  grid-row-start: 10;
+}
+div#p96{
+  grid-column-start: 10;
+  grid-row-start: 10;
+}
+div#p97{
+  grid-column-start: 11;
+  grid-row-start: 10;
+}
+div#p98{
+  grid-column-start: 12;
+  grid-row-start: 10;
+}
+div#p99{
+  grid-column-start: 13;
+  grid-row-start: 10;
+}
+div#p100{
+  grid-column-start: 14;
+  grid-row-start: 10;
+}
+div#p101{
+  grid-column-start: 15;
+  grid-row-start: 10;
+}
+div#p102{
+  grid-column-start: 16;
+  grid-row-start: 10;
+}
+
+/*--!cor dos grupos!--*/
+
+div.nao_metais {
   background-color: rgb(164, 88, 235);
 }
-
-div.ciano {
+div.gas_nobre {
   background-color: aqua;
 }
-
-div.vermelho {
+div.metais_alcalinos {
   background-color: rgb(255, 139, 86);
 }
-
-div.laranja {
+div.metais_alc_terr {
   background-color: hsl(39, 100%, 61%);
 }
-
-div.amarelo {
+div.metais_transicao {
   background-color: hsl(61, 100%, 63%);
 }
-
-div.cinza {
+div.prop_desc {
   background-color: hsl(0, 0%, 76%);
 }
-
-div.rosa {
+div.halogenios {
   background-color: hsl(342, 82%, 58%);
 }
-
-div.verde {
+div.semimetais {
   background-color: hsl(130, 82%, 58%);
 }
-
-div.azul {
+div.metais_repre {
   background-color: hsl(236, 90%, 70%);
 }
-
-div.verdinho {
+div.lantanideos {
   background-color: hsl(110, 100%, 78%);
 }
-
-div.rosinha {
+div.actinidios {
   background-color: pink;
 }

@@ -1,0 +1,37 @@
+/*--!cor dos grupos!--*/
+
+div.nao_metais {
+    border: 0.5vw solid rgb(164, 88, 235);
+  }
+  div.gas_nobre {
+    border: 0.5vw solid aqua;
+  }
+  div.metais_alcalinos {
+    border: 0.5vw solid rgb(255, 139, 86);
+  }
+  div.metais_alc_terr {
+    border: 0.5vw solid hsl(39, 100%, 61%);
+  }
+  div.metais_transicao {
+    border: 0.5vw solid hsl(61, 100%, 63%);
+  }
+  div.prop_desc {
+    border: 0.5vw solid hsl(0, 0%, 76%);
+  }
+  div.halogenios {
+    border: 0.5vw solid hsl(342, 82%, 58%);
+  }
+  div.semimetais {
+    border: 0.5vw solid hsl(130, 82%, 58%);
+  }
+  div.metais_repre {
+    border: 0.5vw solid hsl(236, 90%, 70%);
+  }
+  div.lantanideos {
+    border: 0.5vw solid hsl(110, 100%, 78%);
+  }
+  div.actinidios {
+    border: 0.5vw solid pink;
+  }
+  
+  /**/

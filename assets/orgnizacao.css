@@ -1,0 +1,129 @@
+/*--!organizacao!--*/
+
+div#p2{
+    grid-column-start: 18;
+  }
+  div#p5{
+    grid-column-start: 13;
+  }
+  div#p13{
+    grid-column-start: 13;
+  }
+  
+    /*-lantanidios-*/
+  
+  div#p57{
+    grid-column-start: 3;
+    grid-row-start: 9;
+  }
+  div#p58{
+    grid-column-start: 4;
+    grid-row-start: 9;
+  }
+  div#p59{
+    grid-column-start: 5;
+    grid-row-start: 9;
+  }
+  div#p60{
+    grid-column-start: 6;
+    grid-row-start: 9;
+  }
+  div#p61{
+    grid-column-start: 7;
+    grid-row-start: 9;
+  }
+  div#p62{
+    grid-column-start: 8;
+    grid-row-start: 9;
+  }
+  div#p63{
+    grid-column-start: 9;
+    grid-row-start: 9;
+  }
+  div#p64{
+    grid-column-start: 10;
+    grid-row-start: 9;
+  }
+  div#p65{
+    grid-column-start: 11;
+    grid-row-start: 9;
+  }
+  div#p66{
+    grid-column-start: 12;
+    grid-row-start: 9;
+  }
+  div#p67{
+    grid-column-start: 13;
+    grid-row-start: 9;
+  }
+  div#p68{
+    grid-column-start: 14;
+    grid-row-start: 9;
+  }
+  div#p69{
+    grid-column-start: 15;
+    grid-row-start: 9;
+  }
+  div#p70{
+    grid-column-start: 16;
+    grid-row-start: 9;
+  }
+  
+    /*-actinidios-*/
+  
+  div#p89{
+    grid-column-start: 3;
+    grid-row-start: 10;
+  }
+  div#p90{
+    grid-column-start: 4;
+    grid-row-start: 10;
+  }
+  div#p91{
+    grid-column-start: 5;
+    grid-row-start: 10;
+  }
+  div#p92{
+    grid-column-start: 6;
+    grid-row-start: 10;
+  }
+  div#p93{
+    grid-column-start: 7;
+    grid-row-start: 10;
+  }
+  div#p94{
+    grid-column-start: 8;
+    grid-row-start: 10;
+  }
+  div#p95{
+    grid-column-start: 9;
+    grid-row-start: 10;
+  }
+  div#p96{
+    grid-column-start: 10;
+    grid-row-start: 10;
+  }
+  div#p97{
+    grid-column-start: 11;
+    grid-row-start: 10;
+  }
+  div#p98{
+    grid-column-start: 12;
+    grid-row-start: 10;
+  }
+  div#p99{
+    grid-column-start: 13;
+    grid-row-start: 10;
+  }
+  div#p100{
+    grid-column-start: 14;
+    grid-row-start: 10;
+  }
+  div#p101{
+    grid-column-start: 15;
+    grid-row-start: 10;
+  }
+  div#p102{
+    grid-column-start: 16;
+    grid-row-start: 10;
+  }

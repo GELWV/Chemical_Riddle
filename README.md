@@ -4,5 +4,5 @@
 
 ## Regras
 
-- 
+Como vão funcionar as perguntas:
 

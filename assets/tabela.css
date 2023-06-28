@@ -23,8 +23,9 @@ div.tabela {
 }
 
 .tabela>div:hover{
-  transform: scale(120%);
+  transform: scale(130%);
   transition: 0.2s;
+  color: black;
 }
 
 div.tabela>div{

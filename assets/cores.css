@@ -34,4 +34,38 @@ div.nao_metais {
     border: 0.5vw solid pink;
   }
   
-  /**/
+  /*cor do hover*/
+
+  div.nao_metais:hover {
+    background-color: rgb(164, 88, 235);
+  }
+  div.gas_nobre:hover {
+    background-color: aqua;
+  }
+  div.metais_alcalinos:hover {
+    background-color: rgb(255, 139, 86);
+  }
+  div.metais_alc_terr:hover {
+    background-color: hsl(39, 100%, 61%);
+  }
+  div.metais_transicao:hover {
+    background-color: hsl(61, 100%, 63%);
+  }
+  div.prop_desc:hover {
+    background-color: hsl(0, 0%, 76%);
+  }
+  div.halogenios:hover {
+    background-color: hsl(342, 82%, 58%);
+  }
+  div.semimetais:hover {
+    background-color: hsl(130, 82%, 58%);
+  }
+  div.metais_repre:hover {
+    background-color: hsl(236, 90%, 70%);
+  }
+  div.lantanideos:hover {
+    background-color: hsl(110, 100%, 78%);
+  }
+  div.actinidios:hover {
+    background-color: pink;
+  }
